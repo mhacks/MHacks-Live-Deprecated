@@ -93,6 +93,82 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+/* ==========================================================================
+   Styles for live.mhacks.org
+   ========================================================================== */
+
+#main-container {
+  background-image: url(/img/poly/1.jpg);
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.smaller-pane {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.panel-schedule {
+  border: none;
+  box-shadow: 0 2px 8px black;
+}
+.panel-schedule .panel-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.panel-schedule h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.panel-schedule h5 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: -18px;
+  margin-bottom: 2px;
+  opacity: 0.9;
+  position: absolute;
+  right: 0;
+  margin-right: 24px;
+}
+.panel-schedule p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.panel-schedule > .panel-heading {
+  color: #ffffff;
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  background-color: #f6bb42;
+  border-color: #f6bb42;
+}
+.panel-schedule > .panel-heading + .panel-collapse .panel-body {
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  background-color: #272727;
+  border-color: #272727;
+}
+.panel-schedule > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  background-color: #272727;
+  border-color: #272727;
+}
+
+.panel-schedule .panel-body {
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  background-color: #272727;
+  border-color: #272727;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -176,7 +252,7 @@ html, body {
 }
 
 body {
-  /*background-image: url(/img/photos/big_house.jpg);*/
+  background-image: url(/img/photos/poly/poly1.jpg);
   background-attachment: fixed; 
   background-size: cover;
   background-repeat: repeat;
@@ -184,7 +260,7 @@ body {
   z-index: 200;
 }
 
-body * {
+.col-md-9 * {
   font-family: "denseregular", Helvetica, Arial, sans-serif;
   /*line-height: 1.4em;*/
 }
